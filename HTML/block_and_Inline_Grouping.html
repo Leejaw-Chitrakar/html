@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .html{
+            background-color: red; 
+            padding: 20px; 
+            border-radius: 20px; 
+            width: 300px;
+        }
+        .css{
+            background-color: blue; 
+            padding: 20px; 
+            border-radius: 20px; 
+            width: 300px;
+            box-shadow: 10px 10px 5px yellow;
+        }
+        /* id selector */
+        #welcome-text{
+            font-size: 30px;
+            color: purple;
+        }
+        /* Desendent selector */
+        #welcome-text span{
+            font-size: 50px;
+            color: green;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-shadow: 3px 3px 5px yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="html">
+        <h1>HTML</h1>
+        <p style="background-color: whitesmoke; border-radius: 5px; padding: 5px;"><strong>Hypertext Markup Language (HTML)</strong> is the <b>standard markup language</b> [a] for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as <i>Cascading Style Sheets</i> (CSS) and scripting languages such as <i>JavaScript</i>, a programming language.</p>
+    </div>
+    <br>
+    <div class="css">
+        <h1>CSS</h1>
+        <p style="background-color: whitesmoke; border-radius: 5px; padding: 5px;"><strong>Cascading Style Sheets (CSS)</strong> is a <b>style sheet language</b> used for specifying the presentation and styling of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).[2] CSS is a cornerstone technology of the World Wide Web, alongside <i>HTML and JavaScript</i>.[3]</p>
+    </div>
+    <br>
+    <!-- inline grouping -->
+    <p id="welcome-text">
+        Welcome 
+        <span onmouseover="">Home</span>
+    </p>
+    <b>BOLD</b>
+    <i>Italic</i>
+    <input type="text">
+</body>
+</html>

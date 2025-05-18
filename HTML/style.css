@@ -1,0 +1,28 @@
+H1{
+    color: red;
+}
+H2{
+    color:blue;
+}
+H3{
+    color: green;
+}
+H4{
+    color: gray;
+}
+H5{
+    color: orange;
+}
+H6{
+    color: purple;
+}
+.par{
+    font-size: 25px;
+}
+.mar{
+    font-size: 25px;
+    width: 250px;
+}
+button{
+    background: gold;
+}

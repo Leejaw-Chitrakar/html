@@ -1,0 +1,43 @@
+ /* globel selector */
+ /*
+*{ 
+    padding: 0;
+    margin: 0;
+} 
+*/
+ul{
+    background-color: teal;
+    font-size: 30px;
+    color: whitesmoke;
+    width: 400px;
+    border-radius: 10px;
+    /* padding-left: 30px; */
+    padding: 20px ;
+    /* both line are kindof sem */
+    box-shadow: 10px 10px 15px purple;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+}
+li{
+    margin: 10px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    list-style-position: inside;
+    /*thiscanalsobeused*/box-shadow: 3px 3px 10px blue;
+    margin-bottom: 5px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

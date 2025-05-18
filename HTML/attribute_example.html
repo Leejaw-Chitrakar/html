@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Example</title>
+</head>
+<body>
+    
+    <!-- Image using relative link -->
+    <img src="./assets/premium_photo-1664647731472-c3d77ac5d99e.avif"  height="350" width="480" alt="Cauliflower">
+
+
+    <!-- Image using absolute link -->
+    <img src="https://plus.unsplash.com/premium_photo-1671531113340-beadcd4eb406?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" height="350" width="520" alt="Golden Hour">
+    
+    <p>
+        <img src="./assets/photo-1584615467033-75627d04dffe.avif" height="200" width="250" alt="cauliflower" style="float: right;">
+        Cauliflower is one of several vegetables cultivated from the species Brassica oleracea in the genus Brassica, which is in the Brassicaceae (or mustard) family. Only the "head" is typically eaten; the edible white flesh is sometimes called "curd".
+
+An annual plant that reproduces by seed, the cauliflower head is composed of a (generally) white inflorescence meristem. Although cauliflower heads resemble those in broccoli, the latter differs in having flower buds as the edible portion.
+
+The global cauliflower production (combined with broccoli) in 2023 was 26.5 million tonnes, led by China and India with 72% of the total.
+    </p>
+
+    <input type="text">
+    <input type="email">
+    <input type="password">
+    <input type="submit">
+    <input type="reset">
+    <input type="color">
+    <input type="month">
+    <input type="time">
+    <input type="week">
+    <input type="date">
+    <input type="datetime">
+    <input type="file">
+    <input type="image">
+    <input type="radio">
+    <input type="range">
+    <input type="search">
+    <input type="url">
+    <input type="checkbox">
+    <input type="tel">
+    <input type="number">
+    <input type="hidden">
+
+    <form action="https://dipakshrestha10.com.np" target="_blank">
+        <h1>Register</h1>
+        <label for="fullname">Full Name</label>
+        <input required id="fullname" value="Ram Bahadur" type="text" placeholder="Name" name="full_name"> <br><br>
+        <label for="email">Email</label>
+        <input required id="email" type="email" placeholder="Email" name="email"> <br><br>
+        <label for="password">Password</label>
+        <input required id="password" type="password" placeholder="password" name="password" minlength="8"> <br><br>
+        <label for="file"></label>
+        <input id="file" type="file" accept=".pgf,.docx">
+        <input required type="date"> <br><br>
+        <label for="">
+            <input type="checkbox" checked onchange="alert('Checkbox is checked!!')">
+            I agree to the terms and conditions. <br><br>
+        </label>
+        <!-- Radio Button for gender -->
+        <p>
+            Select your gender<br>
+            <label for="Male">Male</label>
+            <input type="radio" name="gender">
+            <label for="Female">Female</label>
+            <input type="radio" name="gender">
+            <label for="Others">Others</label>
+            <input type="radio" name="gender">
+        </p>
+        <input type="submit" value="Register Now">
+        <input type="reset" value="Reset Form"> <br><br>
+        
+    </form>
+</body>
+</html>
