@@ -9,7 +9,7 @@ ul,ol{
     width: 300px;
 }
 li{
-    margin: 10px 0px 20px 0px;
+    margin: 5px 0px 20px 0px;
     background-color: #FFF8DC;
     color: #333333;
     list-style-position: inside;
@@ -54,6 +54,7 @@ h2{
     margin: 50px;
     height: 60vh;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
 
 .vegetables{
@@ -61,12 +62,14 @@ h2{
     margin: 50px;
     height: 60vh;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);;
+    border-radius: 10px;
 }
 .groceries{
     background-color: #8B4513;
     margin: 50px;
     height: 60vh;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
 
 .headline{
