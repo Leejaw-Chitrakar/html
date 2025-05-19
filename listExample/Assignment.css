@@ -1,6 +1,6 @@
 ul,ol{
-    font-size: 30px;
-    width: 250px;
+    /* font-size: 30px; */
+    /* width: 250px; */
     border-radius: 10px;
     padding: 0px ;
     display: flex;
@@ -18,7 +18,7 @@ li{
 }
 
 body{
-    background-color: rgb(46, 46, 160);
+    background-color: lightcyan;
 }
 
 .fake_body{
@@ -31,7 +31,7 @@ body{
 }
 
 h1{
-    color: white;
+    color: darkolivegreen;
     font-size: 60px;
     padding: 30px 10px 60px 10px;
     display: flex;
@@ -41,7 +41,7 @@ h1{
 }
 
 h2{
-    color: white;
+    color: darkslategray;
     padding: 30px 10px 60px 10px;
     display: flex;
     flex-direction: row;
@@ -50,20 +50,20 @@ h2{
 }
 
 .fruits{
-    background-color: lime;
+    background-color: olive;
     margin: 50px;
     height: 60vh;
     box-shadow: 5px 5px 15px black;
 }
 
 .vegetables{
-    background-color: purple;
+    background-color: olivedrab;
     margin: 50px;
     height: 60vh;
     box-shadow: 5px 5px 15px black;
 }
 .groceries{
-    background-color: red;
+    background-color: burlywood;
     margin: 50px;
     height: 60vh;
     box-shadow: 5px 5px 15px black;
