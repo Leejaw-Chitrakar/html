@@ -1,0 +1,53 @@
+/* Golbal selector */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.fakebody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 140px;
+}
+
+body{
+    background-image: url(./assets/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    color: blue;
+    font-weight: 10px;
+    font-size: 50px;
+}
+
+#contain{
+    height: 300px;
+    margin: 10px;
+    color: blue;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    width: 400px;
+    transition: 0.8s all ease-in-out;
+}
+
+/* using psudo class hover */
+
+#contain:hover{
+    background-color: rgba(39, 215, 238, 0.8);
+    border-radius: 200px;
+    transform: rotate(360deg);
+}
