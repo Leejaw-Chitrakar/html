@@ -41,7 +41,7 @@ h1{
 }
 
 h2{
-    color: #FFF8DC;
+    color: black;
     padding: 30px 10px 50px 10px;
     display: flex;
     flex-direction: row;
@@ -49,8 +49,9 @@ h2{
     align-items: center;
 }
 
+
 .fruits{
-    background-color: #A0522D;
+    background-color: whitesmoke;
     margin: 50px;
     height: 60vh;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
@@ -59,14 +60,14 @@ h2{
 }
 
 .vegetables{
-    background-color: #D2691E;
+    background-color: whitesmoke;
     margin: 50px;
     height: 60vh;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);;
     border-radius: 10px;
 }
 .groceries{
-    background-color: #8B4513;
+    background-color: whitesmoke;
     margin: 50px;
     height: 60vh;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
@@ -79,3 +80,32 @@ h2{
     justify-content: center;
     flex-direction: column;
 } 
+
+.fruits_gradient{
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%); /* Diagonal cut */
+    background: linear-gradient(to bottom right, #a7f3d0 50%, #d1fae5 50%);
+}
+
+.vegetables_gradient{
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%); /* Diagonal cut */
+    background: linear-gradient(to bottom right, #c4b5fd 50%, #ddd6fe 50%);
+}
+.groceries_gradient{
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%); /* Diagonal cut */
+    background: linear-gradient(to bottom right, #fbcfe8 50%, #fce7f3 50%);
+}
