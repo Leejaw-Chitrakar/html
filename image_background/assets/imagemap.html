@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Map</title>
+</head>
+<body>
+    <!-- map and img tag should be linked using name attribute -->
+    <img usemap="#shape_mapping" src="./shape.jpg" alt="Geometric Shapes">
+    <map name="shape_mapping">
+        <!-- circle rect or polygon -->        
+        <area shape="rect" coords="390,157,523,723" href="https://google.com" alt="Square" target="_blank">
+        <!-- rect = (x,y,x+width,y+width) -->
+        <area shape="circle" coords="92,208,50" href="https://google.com" alt="Circle" target="_blank">
+        <!-- circle = (x-center,y-center,radius0) -->
+        <area shape="poly" coords="265,155,220,256,310,256" href="https://google.com" alt="Triangle" target="_blank">
+        <!-- poly = (x1,y1,x2,y2,.....,xn,yn) -->
+        <area shape="poly" coords="90,330,142,368,123,430,58,430,40,368" href="https://google.com" alt="Pentagon">
+        <area shape="poly" coords="30,746,90,668,148,746,90,756" href="https://google.com" alt="Square-Based Pyramid">
+    </map>
+</body>
+</html>

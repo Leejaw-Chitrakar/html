@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture Example</title>
+</head>
+<body>
+    <h1>Picture Example</h1>
+    <picture>
+        <!-- first image will be displayed -->
+        <!-- While setting the px it has to be larger to smaller Eg; 600 px to 400px -->
+        <source media="(min-width: 1000px)" srcset="./assets/images.jpg">
+        <source media="(min-width: 800px)" srcset="./assets/images(3).jpg">
+        <source media="(min-width: 400px)" srcset="./assets/images(2).jpg">
+        <img src="./assets/images(1).jpg" alt="football image"> <!-- default condition -->
+    </picture>
+</body>
+</html>
