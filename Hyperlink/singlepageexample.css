@@ -9,7 +9,15 @@
     justify-content: space-evenly;
     align-items: center;
     color: white;
-    font-size: 18px;
+    font-size: 18px;;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#content{
+    padding-top: 70px; /* To avoid content being hidden behind the navbar */
 }
 
 .card{
@@ -38,6 +46,3 @@
     background-color: lightgoldenrodyellow;
 }
 
-#navbar:onhover{
-    color: greenyellow;
-}
