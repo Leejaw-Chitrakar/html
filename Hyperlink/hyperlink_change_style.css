@@ -1,0 +1,41 @@
+a{
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none; /* removes the underline */
+    transition: all 0.5s ease-in-out; 
+}
+
+/* Default State: Link  (Showes only for the first time)*/
+a:link {
+    color: teal;
+}
+
+/* Visited State: visited */
+
+a:visited {
+    color: crimson;
+    font-size: 16px;
+}
+
+/* Hover State: hover (Should always be above active state)*/ 
+a:hover {
+    color: purple;
+    font-size: 30px;
+    border-radius: 50px;
+}
+
+div{
+    transition: all 0.5s ease-in-out;
+}
+
+.atag{
+    transform: rotate(360deg);
+}
+
+/* Active State: active */
+a:active {
+    color: green;
+    font-size: 20px;
+}
+
