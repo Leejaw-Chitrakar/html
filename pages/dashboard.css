@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#dashboard{
+    display: flex;
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    background: cadetblue;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#page iframe{
+    border: none;
+    width: calc(100vw - 200px);
+    height: 100vh;
+}
+
