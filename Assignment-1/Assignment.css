@@ -1,0 +1,112 @@
+ul,ol{
+    /* font-size: 30px; */
+    /* width: 250px; */
+    border-radius: 10px;
+    padding: 0px ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+li{
+    margin: 5px 0px 20px 0px;
+    background-color: #f6efd4;
+    color: #333333;
+    list-style-position: inside;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+body{
+    background-color:  #1d5b6b;
+}
+
+.fake_body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 15px;
+}
+
+h1{
+    color: #FFF8DC;
+    font-size: 60px;
+    padding: 30px 10px 60px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: black;
+    padding: 30px 10px 50px 10px;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fruits{
+    background-color: whitesmoke;
+    margin: 50px;
+    height: 60vh;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    
+}
+
+.vegetables{
+    background-color: whitesmoke;
+    margin: 50px;
+    height: 60vh;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);;
+    border-radius: 10px;
+}
+.groceries{
+    background-color: whitesmoke;
+    margin: 50px;
+    height: 60vh;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.headline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} 
+
+.fruits_gradient{
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%); /* Diagonal cut */
+    background: linear-gradient(to bottom right, #a7f3d0 50%, #d1fae5 50%);
+}
+
+.vegetables_gradient{
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%); /* Diagonal cut */
+    background: linear-gradient(to bottom right, #c4b5fd 50%, #ddd6fe 50%);
+}
+.groceries_gradient{
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%); /* Diagonal cut */
+    background: linear-gradient(to bottom right, #fbcfe8 50%, #fce7f3 50%);
+}
