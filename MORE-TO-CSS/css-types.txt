@@ -1,0 +1,8 @@
+1. ID Selector
+2. Tag Selector
+3. Class
+4. Descendent
+5. Child
+6. global
+7. Attribute
+8. Grouping

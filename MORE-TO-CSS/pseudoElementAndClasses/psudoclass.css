@@ -1,0 +1,88 @@
+#tooltip {
+    height: 200px;
+    width: 600px;
+    background: aquamarine;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+
+}
+
+/* relative and absolute (bounds the child) */
+#tooltip-content {
+    background: brown;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    /* display: none; */
+    position: absolute;
+    bottom: 10px;
+    left: -400px;
+    transition: 0.5s left ease-in-out;
+}
+
+#tooltip:hover #tooltip-content {
+    /* display: block; */
+    left: 40px;
+}
+
+/* using pesudo class : hover on parent */
+#tooltip:hover #tooltip-content {
+    /* display: block; */
+    left: 40px;
+}
+
+/* changing backgroung color when hovering same element */
+#login-btn:hover {
+    background: red;
+}
+
+.abc:first-child {
+    color: blue;
+}
+
+.abc:last-child {
+    color: chartreuse;
+}
+
+.abc:nth-child(3) {
+    color: red;
+}
+
+/* Heading */
+h4:last-child{
+    font-size: 20px;
+}
+
+h4:nth-child(4){
+    font-size: 50px;
+}
+
+h4:first-child{
+    font-size: 10px;
+}
+
+/* Default state of ancor tag */
+a:link{
+    color: orange;
+}
+
+a:visited{
+    color: teal;
+}
+
+/* while clicking the like the color changes while using active state */
+a:active{
+    color: darkgray;
+}
+
+a:hover{
+    text-decoration: none;
+    font-size: 20px;
+}

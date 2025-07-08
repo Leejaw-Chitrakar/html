@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1>LOGIN</h1>
+            <div class="form-container">
+                <form action="">
+                    <label class="info" for="email">Email</label>
+                    <br>
+                    <input class="info" type="email" id="email" name="email" placeholder="Enter your email" required>
+                    <br>
+                    <label class="info" for="password">Password</label>
+                    <br>
+                    <input class="info" type="password" id="pass" name="password" placeholder="Enter strong password" minlength="8" required>
+                    <button onclick="SHpass()" type="button">Hide/Show</button>
+                    <br>
+                    <input class="info" type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the terms and conditions</label>
+                    <br><br>
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+<script>
+    function SHpass() {
+        let a = document.getElementById('pass')
+        if (a.type == 'password') {
+            a.type = 'text'
+        }
+        else {
+            a.type = 'password'
+        }
+    }
+
+    let input = document.getElementById('pass')
+
+    input.addEventListener('blur', function () {
+        console.log('input focused')
+        const password = document.getElementById('pass').value
+
+        if (password.length < 8) {
+            // document.getElementById('passwordError').textContent = 'Password must be at least 8 characters long.'
+            input.style.border = '2px solid red'
+            console.log(password.length)
+        } else {
+            input.style.border = '2px solid black'
+            console.log("one")
+        }
+    })
+</script>
+
+</html>

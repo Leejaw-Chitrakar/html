@@ -1,0 +1,54 @@
+/* child selector (>) */
+#parent > p{
+    background: yellowgreen;
+}
+
+/* descendent selector (space) */
+#parent P{
+    color: purple;
+    font-size: 30px;
+}
+
+/* attribute selector */
+#parent P[title = "lorem"] {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#parent P[title = "paragraph"] {
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#abc[title = "another paragraph"]{
+    font-size: 100px;
+    color: blue;
+    background: skyblue;
+}
+
+/* Grouping selector */
+#a, #b, #c {
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px gray;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+#a{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+#b{
+    height: 80px;
+    width: 80px;
+    background-color: green;
+}
+
+#c{
+    height: 60px;
+    width: 60px;
+    background-color: blue;
+}
+
