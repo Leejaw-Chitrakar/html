@@ -21,7 +21,7 @@
                     <label class="info" for="password">Password</label>
                     <br>
                     <input class="info" type="password" id="pass" name="password" placeholder="Enter strong password" minlength="8" required>
-                    <button onclick="SHpass()" type="button">Hide/Show</button>
+                    <img onclick="SHpass()" id="sh" src="./assets/hide.png" alt="show/hide">
                     <br>
                     <input class="info" type="checkbox" id="terms" name="terms" required>
                     <label for="terms">I agree to the terms and conditions</label>
@@ -36,11 +36,14 @@
 <script>
     function SHpass() {
         let a = document.getElementById('pass')
+        let b = document.getElementById('sh')
         if (a.type == 'password') {
             a.type = 'text'
+            b.src = './assets/visible.png'
         }
         else {
             a.type = 'password'
+            b.src = './assets/hide.png'
         }
     }
 

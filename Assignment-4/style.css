@@ -39,9 +39,16 @@ main{
 }
 
 .info:nth-child(7){
-    width: 60%;
+    width: 80%;
     height: 25px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transform: translate(0, 5px);
 }
