@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    height: 500px;
+    width: 100%;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.first{
+    background: red;
+}
+
+.second{
+    background: green;
+}
+
+.third{
+    background: yellow;
+}
+
+.stiky-navbar{
+    height: 60px;
+    background: purple;
+    color: white;
+    padding: 0px 20px;
+    margin: 5px 10px;
+    position: sticky;
+    top: 5px;
+}
+
+#sticky-content{
+    width: 500px;    
+    height: 600px;
+    background: gray;
+    /* overflow: auto;   */
+    overflow-x: hidden;  
+    overflow-y: auto;  
+}
