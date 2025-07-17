@@ -1,75 +1,130 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.box{
+.box {
     height: 100%;
-    width: 500px;
+    width: 200px;
     border-radius: 20px;
     margin: 10px;
+    flex-shrink: 0;
 }
 
-.first{
+.first {
     background: red;
 }
 
-.second{
+.second {
     background: skyblue;
 }
 
-.third{
+.third {
     background: lime;
 }
 
-.fourth{
+.fourth {
     background: yellow;
 }
 
-.fifth{
+.fifth {
     background: brown;
 }
 
-.sixth{
+.sixth {
     background: gray;
 }
 
-.seventh{
+.seventh {
     background: aquamarine;
 }
 
-.eighth{
+.eighth {
     background: firebrick;
 }
 
-#sticky-content{
-    height: 500px;
+.ninth {
+    background: darkviolet;
+}
+
+.tenth {
+    background: teal;
+}
+
+.eleventh {
+    background: olive;
+}
+
+.twelfth {
+    background: navy;
+}
+
+.thirteenth {
+    background: maroon;
+}
+
+.fourteenth {
+    background: indigo;
+}
+
+.fifteenth {
+    background: hotpink;
+}
+
+.sixteenth {
+    background: cornflowerblue;
+}
+
+.seventeenth {
+    background: darkgreen;
+}
+
+.eighteenth {
+    background: sienna;
+}
+
+.nineteenth {
+    background: orchid;
+}
+
+.twentieth {
+    background: darkgoldenrod;
+}
+
+#sticky-content {
+    height: 200px;
     width: 100vw;
     padding: 40px 0;
-    overflow-x: hidden;
-    overflow-y: auto;
-    /* display: flex;
-    flex-direction: row; */
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    transform: translate(0, 150px);
 }
 
-#first-sticky-navbar{
-    height: 50px;
-    width: 460px;
-    background: gold;
+#first-sticky-navbar {
+    height: 200px;
+    width: 50px;
+    background: #3d0083;
     color: white;
     padding: 0px 20px;
     margin: 5px 10px;
     position: sticky;
+    left: 5px;
     top: 5px;
+    flex-shrink: 0;
 }
 
-#second-sticky-navbar{
-    height: 50px;
-    width: 460px;
-    background: orange;
+#second-sticky-navbar {
+    height: 200px;
+    width: 50px;
+    background: #3d0083;
     color: white;
     padding: 0px 20px;
     margin: 5px 10px;
     position: sticky;
-    bottom: 5px;
+    right: 5px;
+    top: 5px;
+    flex-shrink: 0;
 }
