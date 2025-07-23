@@ -1,0 +1,36 @@
+p{
+    font-size: 2rem; /* responsive Fontsize */
+    text-decoration: underline;
+    letter-spacing: 10px;
+    word-spacing: 30px;
+    text-align: justify;
+    line-height: 100px;
+    text-indent: 100px;
+    text-shadow: 4px 4px 5px purple;
+    font-family: cursive;
+    
+}
+
+#overline{
+    text-decoration: overline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+    text-decoration-thickness: 10px;
+    text-transform: uppercase;
+    transition: 1s all ease-in-out;
+}
+
+#overline:hover{
+    transform: rotateY(360deg);
+}
+
+#overthrough{
+    text-decoration: line-through double gray 5px;
+    text-transform: capitalize;
+}
+
+#box{
+    background: skyblue;
+    height: 600px;
+    width: 600px;
+}
