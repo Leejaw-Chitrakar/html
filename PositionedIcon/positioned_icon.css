@@ -1,0 +1,155 @@
+.icon {
+  background: #0505d0;
+  padding: 20px 15px;
+  border-radius: 20px 0px 0px 20px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: fixed;
+  top: 30%;
+  right: -100px;
+  transition: all ease-in-out 0.5s;
+}
+
+.icon i {
+  color: #0505d0;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.icon:hover {
+  right: 0px;
+  cursor: pointer;
+}
+
+.whatsapp-icon {
+  background: lime;
+  padding: 20px 15px;
+  border-radius: 0px 20px 20px 0px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: fixed;
+  top: 30%;
+  left: -100px;
+  transition: all ease-in-out 0.5s;
+}
+
+.whatsapp-icon i {
+  color: lime;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.whatsapp-icon:hover {
+  left: 0px;
+  cursor: pointer;
+}
+
+.animation-container {
+  height: 400px;
+  width: 400px;
+  background: skyblue;
+  position: fixed;
+  padding: 30px;
+  border-radius: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  gap: 100px;
+  /* Creates a boundry */
+  position: relative;
+}
+
+.shape {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.shape:first-child {
+  background: red;
+  animation: 0.5s customsize linear infinite;
+}
+
+.shape:nth-child(2) {
+  background: blue;
+  border-radius: 10px;
+  animation: 1s customspin linear infinite;
+}
+
+.shape:nth-child(3) {
+  background: lime;
+  position: absolute;
+  right: 0;
+  animation: 4.9s custommove linear infinite;
+}
+
+.shape:last-child {
+  background: green;
+  position: absolute;
+  right: 0;
+  animation: 5s custommove linear infinite;
+}
+
+/* Spin Animation */
+@keyframes customsize {
+  from {
+    transform: scale((1));
+  }
+  to {
+    transform: scale(2);
+  }
+}
+
+@keyframes customspin {
+  0% {
+    transform: rotate(0deg);
+    background: purple;
+  }
+  100% {
+    transform: rotate(360deg);
+    background: red;
+  }
+}
+
+@keyframes custommove {
+  0% {
+    top: -30px;
+    right: -30px;
+  }
+  25% {
+    top: 430px;
+    right: -30px;
+  }
+  50% {
+    top: 430px;
+    right: 430px;
+  }
+  75% {
+    top: -30px;
+    right: 430px;
+  }
+  100% {
+    top: -30px;
+    right: -30px;
+  }
+}
+
+/* To pause the animation */
+.shape:hover {
+  animation-play-state: paused;
+}
