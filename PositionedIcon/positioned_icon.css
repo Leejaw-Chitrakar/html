@@ -95,7 +95,7 @@
   background: lime;
   position: absolute;
   right: 0;
-  animation: 4.9s custommove linear infinite;
+  animation: 5s custommove linear infinite;
 }
 
 .shape:last-child {
